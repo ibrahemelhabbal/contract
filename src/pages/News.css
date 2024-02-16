@@ -1,0 +1,266 @@
+.new1 {
+  background-image: url("/public/News.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+  max-width: 100%;
+}
+.new1t h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 13rem;
+  right: 6rem;
+}
+.new1t p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  width: 700px;
+  top: 14rem;
+  right: 6rem;
+  float: right;
+  position: relative;
+}
+.slick-track {
+  width: 1900px !important;
+}
+.new2 .slick-prev:before {
+  content: url(./bcolor.svg) !important;
+  /* أي تخصيص آخر ترغب في تطبيقه هنا */
+}
+.new2 .slick-next:before {
+  content: url(./bcolor2.svg) !important;
+  /* أي تخصيص آخر ترغب في تطبيقه هنا */
+}
+div.slick-slide.slick-active {
+  width: 475px !important;
+}
+
+.new2t h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: 5rem;
+  right: 2rem;
+}
+.new2 {
+  height: 90vh;
+}
+.new2 .slide {
+  position: relative;
+  top: 0rem;
+}
+.new3 {
+  height: 50vh;
+  background-color: #eaf1f3;
+}
+.new3 img {
+  width: 615px;
+}
+.new3t {
+  position: relative;
+  bottom: 20rem;
+  right: 2rem;
+}
+.new3t h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.new3t p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 37.4px */
+  width: 600px;
+  float: right;
+}
+.new4 {
+  height: 140vh;
+}
+.new4c {
+  height: 320px;
+  margin-bottom: 2rem;
+}
+.new4cont {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1370px;
+  position: relative;
+  left: 5rem;
+  top: 3rem;
+}
+.new4c img {
+  width: 420px;
+  height: 320px;
+  transition: transform 0.3s ease;
+}
+.new4cp {
+  height: 35px;
+}
+.new4cp p {
+  color: #ffffff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  width: 410px;
+  height: 65.509px;
+  position: relative;
+  bottom: 8rem;
+}
+
+.new4cp h1 {
+  color: #ffffff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%; /* 19.07px */
+}
+.ndate {
+  position: relative;
+  bottom: 8rem !important;
+  width: 100px;
+  float: right;
+  right: 1rem;
+}
+.nlocat {
+  position: relative;
+  bottom: 8rem !important;
+  width: 100px;
+  float: right;
+  right: 1rem;
+}
+.ndate svg {
+  position: relative;
+  float: right;
+}
+.nlocat svg {
+  position: relative;
+  float: right;
+}
+.new4c:hover img {
+  transform: translateX(10px);
+  transform: scale(1.03);
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+.new4h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: 5rem;
+  right: 6rem;
+}
+
+#categorySelect,
+#yearSelect,
+#yearSelect option,
+#projectSelect,
+#projectSelect option,
+#activitySelect,
+#activitySelect option,
+#countrySelect,
+#countrySelect option,
+#categorySelect option {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%;
+  position: relative;
+  float: left;
+  left: 2rem;
+  margin: 6.5px;
+
+  /* تغيير حجم الخط */
+}
+
+.foo h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%;
+  position: relative;
+  top: 0.6rem;
+  right: 3rem;
+}
+.foo svg {
+  position: relative;
+  bottom: 1.8rem;
+}
+
+/* استهداف العناصر عند hover */
+.new4c:hover .foo {
+  opacity: 1; /* جعل العنصر ظاهرًا */
+  transform: translateX(0); /* إظهار العنصر بتأثير انزلاق */
+}
+
+/* تحديد خصائص العنصر الذي يحتوي على "اقرأ المزيد" والسهم */
+.foo {
+  width: 190px;
+  height: 55px;
+  position: relative;
+  bottom: 8.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateX(100%);
+}
+.low {
+  width: 167px;
+  height: 33px;
+  position: relative;
+  bottom: 8rem;
+  left: 8rem;
+}
+.low svg {
+  float: right;
+}
+.low h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%; /* 21.454px */
+}

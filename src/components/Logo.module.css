@@ -1,0 +1,16 @@
+.logo img {
+  height: 45px;
+  margin-left: 18px;
+  margin-bottom: 12px;
+}
+.logo {
+  display: flex;
+  height: 100px;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+.scrolled {
+  filter: grayscale(100%) invert(100%); /* Change color to black when scrolling */
+}

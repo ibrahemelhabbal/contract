@@ -1,0 +1,155 @@
+.dir1 {
+  background-image: url("/public/dirct.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+  max-width: 100%;
+}
+.dirp {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 10rem;
+  right: 12rem;
+}
+
+.dirp h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.dirp p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+}
+.dir2 {
+  height: 140vh;
+  max-width: 100%;
+}
+.pdir2 {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1350px;
+  position: relative;
+  left: 5rem;
+  top: 7rem;
+}
+.per1 {
+  width: 305px;
+  height: 390px;
+  z-index: 999;
+}
+.per1 img {
+  width: 305px;
+  height: 370px;
+}
+.dir2 h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  top: 5rem;
+  right: 7rem;
+}
+.personsp h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100px;
+  position: relative;
+  top: -1rem;
+  left: 12rem;
+}
+.personsp h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: -2rem;
+  right: 0.6rem;
+}
+.personsp p {
+  color: #fff;
+  text-align: right;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  width: 270px;
+  height: 150px;
+  visibility: hidden;
+  opacity: 0;
+  flex-shrink: 0;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  position: relative;
+  left: 1.5rem;
+  bottom: 2rem;
+}
+.personsp {
+  width: 305px;
+  height: 78px;
+  position: relative;
+  bottom: 5rem;
+}
+
+.per1:hover .personsp {
+  bottom: 17rem;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+}
+.per1:hover .personsp p {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+.per1:hover img {
+  filter: brightness(75%);
+  opacity: 0.9;
+  cursor: pointer;
+}
+.foot {
+  visibility: hidden;
+  opacity: 0;
+}
+.per1:hover .foot {
+  visibility: visible;
+  opacity: 1;
+}
+
+.foot svg {
+  position: relative;
+  top: -4.7rem;
+  left: 10rem;
+  cursor: pointer;
+}
+.fot {
+  z-index: 999;
+}

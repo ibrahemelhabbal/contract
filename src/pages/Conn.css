@@ -1,0 +1,63 @@
+.con1 {
+  background-image: url("/public/conn.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60vh;
+  max-width: 100%;
+}
+.con1t {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: relative;
+  top: 13rem;
+  right: 6rem;
+}
+.con2 {
+  height: 100vh;
+}
+#fback {
+  position: relative;
+  top: 7rem;
+  left: 7rem;
+}
+#frame {
+  position: relative;
+  top: 6rem;
+  right: 25rem;
+  width: 400px;
+}
+.con2form h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  right: 2rem;
+}
+.con2form {
+  height: 700px;
+  width: 500px;
+  float: right;
+  bottom: 32rem;
+}
+.formcon {
+  position: relative;
+  right: 2rem;
+}
+.con2 #message {
+  width: 505px;
+  height: 191px;
+  border-radius: 12px;
+  border: 1px solid #0b8494;
+  position: relative;
+  bottom: 0rem;
+}

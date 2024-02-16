@@ -1,0 +1,165 @@
+div {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  top: 10px; /* تحديد المسافة من الأعلى (يمكنك تعديلها حسب الحاجة) */
+  left: 10px; /* تحديد المسافة من اليسار (يمكنك تعديلها حسب الحاجة) */
+  transition: top 0.3s, left 0.3s, font-size 0.3s; /* إضافة تأثير تحويلي */
+}
+
+input {
+  width: 505px;
+  height: 60px;
+  border-radius: 12px;
+  border: 1px solid #0b8494;
+  margin-bottom: 1.7rem;
+}
+form {
+  position: relative;
+  float: right;
+  bottom: 35rem;
+  right: 5rem;
+}
+
+input::placeholder {
+  color: #ababab;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.187%; /* 26.221px */
+  position: relative;
+  right: 1rem;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: url("/public/Veb.svg");
+  background-size: 12px; /* حجم الصورة */
+  background-position: left center;
+  background-repeat: no-repeat;
+
+  width: 250px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #0b8494;
+}
+.select-container {
+  display: inline-block;
+  margin-right: 10px; /* تعديل حسب الحاجة */
+}
+
+/* إذا كنت تريد تخصيص المزيد لكل زر، يمكنك استخدام الكلاسات المحددة لكل زر بناءً على اسم الحقل */
+.governorate-container {
+  position: relative;
+  left: 16rem;
+}
+
+.region-container {
+  position: relative;
+  bottom: 4rem;
+}
+.select-placeholder {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 119.187%; /* 21.454px */
+  position: relative;
+}
+#message {
+  width: 505px;
+  height: 191px;
+  border-radius: 12px;
+  border: 1px solid #0b8494;
+  position: relative;
+  bottom: 2rem;
+}
+#message::placeholder {
+  position: relative;
+  bottom: 4.5rem;
+}
+
+select option {
+  /* تخفيض التباعد بين الخيارات */
+  padding: 8px;
+}
+
+/* إخفاء النقاط أو الأشكال الافتراضية للخيارات */
+select::-ms-expand {
+  display: none;
+}
+
+select option {
+  display: none;
+}
+
+/* عرض القائمة المنسدلة عند النقر على الحقل */
+
+/* إظهار الخيارات عند تحديد الحقل */
+select:active option,
+select:focus option,
+select:hover option {
+  display: block;
+}
+input[type="file"] {
+  display: none; /* إخفاء الزر الأصلي */
+}
+.custom-file-upload {
+  border-radius: 16px;
+  border: 2px dashed #008699;
+  background: #eaf1f3;
+  width: 373px;
+  height: 153px;
+  flex-shrink: 0;
+  cursor: pointer;
+  position: relative;
+  left: 8rem;
+  top: -2rem;
+}
+.custom-file-upload span {
+  position: relative;
+  color: #008699;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%;
+  position: relative;
+  left: 7rem;
+  top: 4rem;
+}
+.custom-file-upload img {
+  width: 25px;
+  position: relative;
+  right: 6rem;
+  top: 3.5rem;
+}
+
+.subbbtn {
+  position: relative;
+
+  left: 8rem;
+  display: flex;
+  width: 373px;
+  height: 50px;
+  padding: 12px 52px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #008699;
+  border: none;
+  color: white;
+}

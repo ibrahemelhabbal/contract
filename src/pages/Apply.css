@@ -1,0 +1,36 @@
+.apply1 {
+  background-image: url("/vaca1.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60vh;
+  max-width: 100%;
+}
+.apply1 h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 11rem;
+  right: 12rem;
+}
+.apply2 {
+  height: 160vh;
+  max-width: 100%;
+}
+.apply2 svg {
+  width: 500px;
+  position: relative;
+  top: 0rem;
+  left: 6rem;
+}
+.apply2 img {
+  width: 300px;
+  z-index: 1;
+  position: relative;
+  right: 18rem;
+}

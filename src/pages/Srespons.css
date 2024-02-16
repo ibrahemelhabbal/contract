@@ -1,0 +1,187 @@
+.respons1 {
+  background-image: url("/public/respon1.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+  max-width: 100%;
+}
+.resp {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 10rem;
+  right: 12rem;
+}
+
+.resp h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.resp p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+}
+.respons2 {
+  height: 140vh;
+  max-width: 100%;
+}
+.respons2 img {
+  width: 550px;
+  position: relative;
+  left: 10rem;
+  top: 8rem;
+}
+.resp2 {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 7rem;
+  right: 6rem;
+}
+.resp2 h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.resp2 p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+.scards {
+  display: inline-flex;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 545px;
+  height: 265px;
+  position: relative;
+  top: 11rem;
+  left: 10rem;
+}
+.scard {
+  display: flex;
+  width: 260px;
+  height: 120px;
+
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  background: #e8f0f2;
+}
+.scard h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: static;
+}
+
+.scard h3 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  bottom: 1rem;
+}
+
+.scard:hover {
+  background-color: #006a78;
+}
+
+.scard:hover h1 {
+  color: #ffffff;
+  transition: 0.6s ease-out;
+}
+
+.scard:hover h3 {
+  color: #ffffff;
+  transition: 0.4s ease-out;
+}
+.under p {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 1rem;
+}
+.line {
+  width: 20%; /* يمتد الخط لتغطية العرض بالكامل */
+  height: 2px; /* يحدد سمك الخط */
+  background-color: #006a78;
+}
+
+.under {
+  width: 580px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 9rem;
+  left: 9rem;
+}
+.respons3 {
+  max-width: 100%;
+  height: 85vh;
+  background-color: #eaf2f4;
+}
+.respons3 img {
+  width: 550px;
+  position: relative;
+  top: 8rem;
+  left: 8rem;
+}
+.resp3 {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 6rem;
+  right: 6rem;
+}
+.resp3 h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.resp3 p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}

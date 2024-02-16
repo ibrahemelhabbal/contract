@@ -1,0 +1,146 @@
+.slide {
+  position: relative;
+  top: 7rem;
+  height: 82%;
+}
+.descrption2 {
+  width: 30rem;
+  position: relative;
+  left: 58rem;
+  top: 2rem;
+}
+.descrption2 h1 {
+  color: #fff;
+  text-align: right;
+
+  font-family: Cairo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  bottom: 4rem;
+  right: 8rem;
+}
+.descrption2 p {
+  color: #fff;
+  text-align: right;
+
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+  position: relative;
+  bottom: 4rem;
+  right: 8rem;
+}
+
+.Card22 {
+  padding: 0.6rem;
+  overflow: hidden;
+  width: 450px !important;
+  height: 350px;
+}
+
+.Card22 img {
+  width: 425px;
+  height: 340px;
+  flex-shrink: 0;
+}
+/* .intro22 {
+  position: relative;
+  width: 250px;
+  height: 60px;
+  flex-shrink: 0;
+  left: 2rem;
+
+  bottom: 4.5rem;
+} */
+.intro22 {
+  height: 35px;
+}
+.intro22 p {
+  color: #ffffff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  width: 410px;
+  height: 65.509px;
+  position: relative;
+  bottom: 8rem;
+}
+
+.intro22 h1 {
+  color: #ffffff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%; /* 19.07px */
+}
+.ndate {
+  position: relative;
+  bottom: 8rem !important;
+  width: 100px;
+  float: right;
+  right: 1rem;
+}
+.nlocat {
+  position: relative;
+  bottom: 8rem !important;
+  width: 100px;
+  float: right;
+  right: 1rem;
+}
+.ndate svg {
+  position: relative;
+  float: right;
+}
+.nlocat svg {
+  position: relative;
+  float: right;
+}
+.Card22:hover img {
+  transform: translateX(10px);
+  transform: scale(1.03);
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+.foo h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%;
+  position: relative;
+  top: 0.6rem;
+  right: 3rem;
+}
+.foo svg {
+  position: relative;
+  bottom: 1.8rem;
+}
+
+/* استهداف العناصر عند hover */
+.Card22:hover .foo {
+  opacity: 1; /* جعل العنصر ظاهرًا */
+  transform: translateX(0); /* إظهار العنصر بتأثير انزلاق */
+}
+
+/* تحديد خصائص العنصر الذي يحتوي على "اقرأ المزيد" والسهم */
+.foo {
+  width: 190px;
+  height: 55px;
+  position: relative;
+  bottom: 8.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateX(100%);
+}

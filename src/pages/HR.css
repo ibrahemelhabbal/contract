@@ -1,0 +1,69 @@
+.HR1 {
+  background-image: url("/public/HR1.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+  max-width: 100%;
+}
+.Hpar {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 10rem;
+  right: 12rem;
+}
+
+.Hpar h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Hpar p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+}
+.HR2 {
+  height: 110vh;
+  max-width: 100%;
+}
+.HR2 img {
+  width: 600px;
+  position: relative;
+  left: 8rem;
+  top: 8rem;
+}
+.Hpar2 {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 6rem;
+  right: 6rem;
+}
+.Hpar2 h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Hpar2 p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}

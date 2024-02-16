@@ -1,0 +1,139 @@
+/* ... الكود الحالي ... */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* تحديد هامش الحواف */
+
+  transition: 0.4s;
+  position: fixed;
+  width: 100%; /* جعل العرض كاملا */
+  top: 0;
+  z-index: 99;
+}
+
+.navlinks {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none; /* إزالة نقاط القائمة */
+  position: relative;
+  left: 20vh;
+}
+
+.navlinks li {
+  height: 100px;
+  padding: 36px 32px;
+}
+
+.Btn {
+  padding: 12px 25px;
+  border-radius: 16px;
+  background: #028091;
+  border: none;
+  color: var(--Light-Grey, #ececec);
+  text-align: center;
+  font-family: cairo;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.nav a:link,
+.nav a:visited,
+.CustomToggle {
+  text-decoration: none;
+  color: var(--color-light--2);
+
+  text-transform: uppercase;
+  text-align: center;
+  font-family: cairo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+.dropdown-menu.show {
+  position: absolute !important;
+  z-index: 1000;
+}
+.dropdown-item a {
+  float: right;
+  height: 35px;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  height: 38px;
+}
+/* Add this to your existing CSS file */
+.nav.scrolled {
+  background-color: white;
+  height: 90px; /* Change to your desired background color */
+}
+
+.nav.scrolled .navlinks a {
+  color: black; /* Change to your desired link color */
+}
+.nav.scrolled .scrolled-link {
+  color: black !important; /* Change to your desired link color for scrolled state */
+}
+.nav.scrolled .scrolled-link svg path {
+  fill: black !important; /* Change to your desired link color for scrolled state */
+}
+/* تحسين الاستجابة */
+
+/* ... الكود الحالي ... */
+
+/* تحسين الاستجابة */
+
+@media screen and (max-width: 1200px) {
+  .nav {
+    justify-content: space-between; /* Keep space between menu icon and logo */
+    align-items: center;
+    width: 100%; /* Adjusted width for mobile */
+  }
+
+  .mobile-menu-icon {
+    display: block; /* Show the hamburger icon on smaller screens */
+    cursor: pointer;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px; /* Add space to the left of the icon */
+  }
+
+  .navlinks {
+    display: none; /* Hide the links by default on smaller screens */
+    width: 100%;
+    flex-direction: column; /* Stack the items vertically for mobile */
+    align-items: center;
+    text-align: center; /* Center text for mobile */
+    left: auto;
+    padding: auto;
+  }
+
+  .navlinks.active {
+    display: flex; /* Show the links when the menu is active */
+  }
+
+  .navlinks li {
+    padding: 15px;
+    width: 100%; /* Make each list item full width for mobile */
+  }
+
+  .Btn {
+    margin-top: 15px; /* Add spacing between button and links for mobile */
+    justify-content: center; /* Center button for mobile */
+  }
+
+  /* Adjust the margin-right for the logo */
+  .Logo {
+    margin-right: 0px; /* Add space to the right of the logo */
+  }
+}
+
+/* ... الكود الحالي ... */

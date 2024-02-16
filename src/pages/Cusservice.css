@@ -1,0 +1,229 @@
+.c1 {
+  background-image: url("/public/custuuu.png");
+  height: 80vh;
+  max-width: 100%;
+}
+.dess1 h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 13rem;
+  right: 6rem;
+}
+.dess1 p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  width: 700px;
+  top: 14rem;
+  right: 6rem;
+  float: right;
+  position: relative;
+}
+.c2 {
+  height: 100vh;
+  max-width: 100%;
+}
+.dimage img {
+  max-width: 580px;
+  max-height: 530px;
+  left: 7rem;
+  top: 8rem;
+
+  position: relative;
+}
+.dimage2 img {
+  max-width: 580px;
+  max-height: 530px;
+  left: 7rem;
+  top: 8rem;
+
+  position: relative;
+}
+.dess2 {
+  position: relative;
+  width: 700px;
+  height: 100vh;
+  float: right;
+  bottom: 25rem;
+  right: 5rem;
+}
+.dess2 h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+.dess2 p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  max-width: 700px;
+  position: relative;
+}
+.dess2 h2 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+}
+.c3 {
+  background-color: #eaf2f4;
+  height: 100vh;
+  max-width: 100%;
+}
+.dess3 {
+  position: relative;
+  width: 700px;
+  height: 100vh;
+  float: right;
+  bottom: 21rem;
+  left: 40rem;
+}
+.dess3 h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+.dess3 p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  max-width: 700px;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.c3 {
+  background-color: #eaf2f4;
+  height: 100vh;
+  max-width: 100%;
+}
+.c4 {
+  height: 100vh;
+  max-width: 100%;
+}
+.dimage3 img {
+  max-width: 580px;
+  max-height: 530px;
+  left: 7rem;
+  bottom: 21rem;
+
+  position: relative;
+}
+.dimage3 {
+  height: 70vh;
+}
+.dess4 {
+  position: relative;
+  width: 700px;
+  height: 19vh;
+  float: right;
+  bottom: 27rem;
+  right: 3rem;
+}
+.dess4 h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+.dess4 h2 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+}
+.dess4 p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  max-width: 700px;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 700px) {
+  .dess1 p {
+    max-width: 80%;
+  }
+
+  .dess2 {
+    bottom: 18rem;
+    max-width: 85%;
+  }
+  .c2 {
+    height: 130vh;
+    max-width: 100%;
+  }
+  .dess2 p {
+    font-size: 13px;
+  }
+
+  .dimage img {
+    max-width: 70%;
+    max-height: 70%;
+    left: 5rem;
+    top: 40rem;
+
+    position: relative;
+  }
+  .c3 {
+    height: 130vh;
+    max-width: 100%;
+  }
+  .dess3 {
+    bottom: 18rem;
+    left: -1rem;
+    max-width: 85%;
+  }
+  .dess3 p {
+    font-size: 13px;
+  }
+  .dimage2 img {
+    max-width: 70%;
+    max-height: 70%;
+    left: 5rem;
+    top: 35rem;
+
+    position: relative;
+  }
+}

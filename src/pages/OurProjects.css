@@ -1,0 +1,266 @@
+.our1 {
+  background-image: url("/public/ourp.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 80vh;
+  max-width: 100%;
+}
+.our1t h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 13rem;
+  right: 6rem;
+}
+.our1t p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  width: 700px;
+  top: 14rem;
+  right: 6rem;
+  float: right;
+  position: relative;
+}
+.our2 {
+  height: 90vh;
+  max-width: 100%;
+}
+.our2 div.slick-slide.slick-active {
+  width: 380px !important;
+}
+.our2 .slick-prev:before {
+  content: url(./bcolor.svg) !important;
+  /* أي تخصيص آخر ترغب في تطبيقه هنا */
+}
+.our2 .slick-next:before {
+  content: url(./bcolor2.svg) !important;
+  /* أي تخصيص آخر ترغب في تطبيقه هنا */
+}
+.our3 {
+  height: 60vh;
+  background-color: #eaf1f3;
+}
+.our3 img {
+  width: 617px;
+}
+.our3t {
+  position: relative;
+  bottom: 24rem;
+  right: 2rem;
+}
+.our3t h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.our3t p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 37.4px */
+  width: 600px;
+  float: right;
+}
+.our3 button {
+  position: relative;
+  top: -10rem;
+  left: 84rem;
+}
+.our4 {
+  height: 160vh;
+}
+.our4c {
+  position: relative;
+  width: 316px;
+  height: 390px;
+  margin-bottom: 2rem;
+  z-index: 999;
+}
+.our4cont {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1355px;
+  position: relative;
+  left: 5rem;
+  bottom: 5rem;
+}
+.our4c img {
+  width: 315px;
+  height: 390px;
+  transition: transform 0.3s ease;
+}
+.our4ct {
+  height: 90px;
+  position: relative;
+  bottom: 9rem;
+}
+.our4ct p {
+  color: #d4d4d4;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 270px;
+  height: 160px;
+  visibility: hidden;
+  opacity: 0;
+  flex-shrink: 0;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  position: relative;
+  top: 5.5rem;
+  left: 2rem;
+}
+
+.our4ct h1 {
+  color: #ffffff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%;
+  position: relative;
+  bottom: -5rem;
+  right: 1rem;
+}
+.our4c:hover .our4ct {
+  transform: translateY(-12rem);
+  transition: 0.6s ease-out;
+  cursor: pointer;
+}
+.our4c:hover .our4ct p {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.3s, opacity 0.3s;
+  cursor: pointer;
+}
+.ourf h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%;
+  position: relative;
+  top: 0.6rem;
+  right: 3rem;
+}
+.ourf svg {
+  position: relative;
+  bottom: 1.8rem;
+}
+
+/* استهداف العناصر عند hover */
+.our4c:hover .ourf {
+  opacity: 1; /* جعل العنصر ظاهرًا */
+  transform: translateX(0); /* إظهار العنصر بتأثير انزلاق */
+}
+
+/* تحديد خصائص العنصر الذي يحتوي على "اقرأ المزيد" والسهم */
+.ourf {
+  width: 190px;
+  height: 55px;
+  cursor: pointer;
+  position: relative;
+  bottom: 10.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateX(100%);
+}
+.low {
+  width: 167px;
+  height: 33px;
+  position: relative;
+  bottom: 8rem;
+  left: 8rem;
+}
+.low svg {
+  float: right;
+  top: 0.2rem;
+  position: relative;
+  cursor: pointer;
+}
+.low h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%; /* 21.454px */
+  position: relative;
+  right: 0.5rem;
+  cursor: pointer;
+}
+.low {
+  width: 167px;
+  height: 33px;
+  position: relative;
+  bottom: 8rem;
+  left: 8rem;
+}
+.low svg {
+  float: right;
+}
+.low h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%; /* 21.454px */
+}
+
+.our4c:hover .low h3 {
+  color: #01a2b8;
+}
+
+.our4c:hover .low svg path {
+  fill: #01a2b8;
+}
+.selectcont {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1100px;
+  position: relative;
+  bottom: 12rem;
+}
+.our4h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  float: right;
+  left: 30rem;
+}

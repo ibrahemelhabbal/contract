@@ -1,0 +1,149 @@
+/* Original Styles */
+
+.fotter {
+  background-image: url("/public/last2.png");
+  height: 55vh;
+}
+
+.fLogo {
+  position: relative;
+  float: right;
+  right: 6rem;
+  top: 4rem;
+}
+
+.des {
+  position: relative;
+  float: right;
+  top: 10rem;
+  left: 4rem;
+}
+
+.des p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  width: 500px;
+}
+
+.media {
+  position: relative;
+  float: right;
+  top: 17rem;
+  left: 35rem;
+}
+
+.media h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+  width: 500px;
+}
+
+.linkes {
+  position: relative;
+  float: right;
+  margin-top: 1rem;
+  left: 0.6rem;
+}
+
+.linkes a {
+  padding: 8px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.link a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  color: #f0f0f0;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pageLinkes {
+  width: 100vh;
+}
+
+.first {
+  position: relative;
+  float: right;
+  left: 25rem;
+  top: 4rem;
+}
+
+.first h1 {
+  color: #ffffff;
+  position: relative;
+  left: -1rem;
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.second {
+  position: relative;
+  float: right;
+  top: 4rem;
+  left: 24rem;
+}
+
+.second h1 {
+  color: #ffffff;
+  position: relative;
+  left: -1rem;
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .fotter {
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  /* قم بإزالة أي تأثير للتصميم المتغير هنا */
+  .fLogo,
+  .des,
+  .media,
+  .first,
+  .second {
+    position: static;
+    margin-bottom: 1.5rem;
+    left: auto;
+    top: auto;
+  }
+
+  .linkes {
+    float: none;
+    margin-top: 1rem;
+  }
+}

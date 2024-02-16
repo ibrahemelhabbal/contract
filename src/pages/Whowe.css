@@ -1,0 +1,213 @@
+.s1 {
+  background-image: url("/public/hrw1.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 120vh;
+  max-width: 100%;
+}
+.s1 h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  top: 8rem;
+  right: 12rem;
+}
+.par {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 8rem;
+  right: 12rem;
+}
+.par p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+}
+.s2 {
+  height: 70vh;
+  max-width: 100%;
+}
+.s2 img {
+  position: relative;
+  width: 620px;
+  left: 10rem;
+  top: 10rem;
+}
+.s2des {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 9rem;
+  right: 5rem;
+}
+.s2des h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.s2des p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%; /* 29.7px */
+}
+.s3 {
+  height: 70vh;
+  max-width: 100%;
+  background-image: url("/public/hrw3.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.s3des1 {
+  position: relative;
+  top: 5rem;
+  text-align: center;
+}
+.s3des1 h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Cairo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.s3des1 p {
+  color: #fff;
+  text-align: center;
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 38.4px */
+}
+.s3des2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 8rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.s3des2 h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.s3des2 p {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 30.6px */
+  width: 400px;
+}
+.t1 img,
+.t2 img,
+.t3 img {
+  width: 42px;
+  height: 58px;
+  float: right;
+  margin-left: -4rem;
+  left: 3rem;
+  position: relative;
+}
+.t1,
+.t2,
+.t3 {
+  margin-right: 5rem;
+}
+.s4 {
+  height: 70vh;
+  max-width: 100%;
+}
+.s4 img {
+  position: relative;
+  width: 620px;
+  left: 10rem;
+  top: 10rem;
+}
+.s4des {
+  max-width: 600px;
+  position: relative;
+  float: right;
+  top: 9rem;
+  right: 5rem;
+}
+.s4des h1 {
+  color: #006a78;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.s4des p {
+  color: #003a42;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%; /* 29.7px */
+}
+.s5 {
+  background-image: url("/public/hrw5.png");
+  background-size: cover; /* or 'cover' or '100% 100%' depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 60vh;
+  max-width: 100%;
+}
+.s5des {
+  position: relative;
+  top: 5rem;
+
+  max-width: 600px;
+  left: 27rem;
+}
+.s5des h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Cairo;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.s5des p {
+  color: #fff;
+  text-align: center;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 38.4px */
+}

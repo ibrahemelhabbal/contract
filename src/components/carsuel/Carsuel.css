@@ -1,0 +1,167 @@
+.slide {
+  position: relative;
+  top: 7rem;
+  height: 82%;
+}
+.descrption2 {
+  width: 30rem;
+  position: relative;
+  left: 58rem;
+  top: 2rem;
+}
+.descrption2 h1 {
+  color: #fff;
+  text-align: right;
+
+  font-family: Cairo;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  bottom: 4rem;
+  right: 8rem;
+}
+.descrption2 p {
+  color: #fff;
+  text-align: right;
+
+  font-family: Cairo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+  position: relative;
+  bottom: 4rem;
+  right: 8rem;
+}
+
+.Card2 {
+  padding: 0.6rem;
+  overflow: hidden;
+  cursor: pointer;
+  height: 450px;
+}
+
+.Card2 img {
+  width: 305px;
+  height: 340px;
+  flex-shrink: 0;
+}
+.intro2 {
+  position: relative;
+  width: 250px;
+  height: 60px;
+  flex-shrink: 0;
+  left: 2rem;
+
+  bottom: 4.5rem;
+}
+.intro2 h1 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.intro2 p {
+  color: #d4d4d4;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  width: 248px;
+  height: 103.918px;
+  line-height: 150%; /* 27px */
+  opacity: 0;
+}
+.Card2:hover .intro2 {
+  bottom: 13rem;
+  transition: 0.6s ease-out;
+  font-size: 20px;
+}
+
+div.slick-slide.slick-active {
+  width: 380px !important;
+}
+.ourr h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%;
+  position: relative;
+  top: 0.6rem;
+  right: 3rem;
+}
+.ourr svg {
+  position: relative;
+  bottom: 1.8rem;
+}
+
+/* استهداف العناصر عند hover */
+.Card2:hover .ourr {
+  opacity: 1; /* جعل العنصر ظاهرًا */
+  transform: translateX(0); /* إظهار العنصر بتأثير انزلاق */
+}
+
+/* تحديد خصائص العنصر الذي يحتوي على "اقرأ المزيد" والسهم */
+.ourr {
+  width: 190px;
+  height: 55px;
+  cursor: pointer;
+  position: relative;
+  bottom: 8.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateX(100%);
+}
+.loww {
+  width: 167px;
+  height: 33px;
+  position: relative;
+  bottom: 6rem;
+  left: 8rem;
+}
+.loww svg {
+  float: right;
+  top: 0.2rem;
+  position: relative;
+  cursor: pointer;
+}
+.loww h3 {
+  color: #fff;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119.187%; /* 21.454px */
+  position: relative;
+  right: 0.5rem;
+  cursor: pointer;
+}
+
+.Card2:hover .intro2 p {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.3s, opacity 0.3s;
+  cursor: pointer;
+}
+.Card2:hover .loww h3 {
+  color: #01a2b8;
+}
+
+.Card2:hover .loww svg path {
+  fill: #01a2b8;
+}
+/* في ملف الستايل أو ملف CSS المستخدم */
+.custom-link {
+  text-decoration: none;
+
+  cursor: pointer;
+}
